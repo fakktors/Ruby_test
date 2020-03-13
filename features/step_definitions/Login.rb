@@ -1,6 +1,5 @@
 path = "D:/Ruby_test/drivers/chromedriver.exe"
 
-
 Given(/^I open a browser$/) do
   @browser = Selenium::WebDriver.for :chrome, driver_path:path
   url = "http://www.old.practicalsqa.net"
